@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  font-family: Tahoma;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+
+a {text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 500;}
+
+header{
+  background-color: #f0f0f0;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 100px;
+  max-height: 40px;
+}
+
+.logo{
+  text-decoration: none;
+  color: #07b7e3;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.3em;
+  font-family: Tahoma;
+}
+
+.navigation a{
+  color: #3a6cf4;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-weight: 600;
+  padding-left: 22px;
+  transition: 0.7s ease;
+  font-family: Tahoma;
+}
+
+.navigation a:hover{
+  color: #601cfc;
+  font-size: 1.3em;
+  transform: scale(1.1);
+}
+#idea{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  padding: 10px;
+  margin-right: 10px;
+  flex-direction: column;
+  font-family: Tahoma;
+}
+.title{
+  display: flex;
+  color: #3a6cf4;
+  font-size: 3.9em;
+  font-weight: 800;
+  margin-bottom: 10px;
+  margin-top: 50px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: Tahoma;
+}
+#prag{
+  color: #1992d4;
+  font-size: 1.1em;
+  margin-top: 30px;
+  text-align: right;
+  font-weight: 600;
+  font-family: Tahoma;
+}
+.sp {
+  border: #08fcfc solid 1px ;
+  background-color: #49fcfc;
+  border-radius: 9px;
+  color: white;
+  padding: 3px;
+  font-family: Tahoma;
+}
+
+.who_i{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Tahoma;
+}
+
+#hw{
+  color:black;
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: Tahoma;
+}
+
+.parag {
+  color: black;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 600;
+  font-family: Tahoma;
+}
+
+
+
+.content{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+
+.titlo{
+  display: flex;
+  justify-content: center;
+  color: #3a6cf4;
+  font-size: 2.0em;
+  font-weight: 800;
+  margin-bottom: 30px;
+  margin-top: 10px;
+  font-family: Tahoma;
+}
+.cardo{
+  background-color: #fff;
+  width: 18em;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+  border-radius: 10px;
+  padding: 30px;
+  margin: 20px;
+  transition: 0.7s ease;
+  max-height: 21em;
+}
+
+.cardo:hover{
+  transform: scale(1.1);
+}
+
+.icon{
+  color: #3a6cf4;
+  font-size: 6em;
+  text-align: center;
+}
+
+.info{
+  text-align: center;
+  font-family: Tahoma;
+}
+
+.info h3{
+  color: #3a6cf4;
+  font-size: 1.1em;
+  font-weight: 700;
+  margin: 10px;
+  text-align: center;
+  font-family: Tahoma;
+}
+
+.paragraph{
+  color: black;
+  font-size: 1.1em;
+  font-weight: 700;
+  text-align: center;
+  font-family: Tahoma;
+}
+
+.contact .icon{
+  font-size: 4.5em;
+}
+
+.contact .info h3{
+  color: #000;
+}
+.social-icons a{
+  color: #fff;
+  font-size: 1.1em;
+  padding-right: 20px;
+}
+.footer{
+  background-color: #000016;
+  color: #fff;
+  padding: 2em;
+  display: flex;
+  justify-content: space-between;
+  max-height: 40px;
+  margin-top: 20px;
+}
+
+.footer-title{
+  font-size: 1.3em;
+  font-weight: 600;
+  font-family: Tahoma;
+}
+
+.footer-title span{
+  color: #3a6cf4;
+  font-family: Tahoma;
+}
+
+hr{
+  border: #6ee6e6 solid 2px;
+  margin-bottom: 10px;
+}
+
+.co {
+  font-size: 0.4em;
+}
+
+.b1 {
+  width: 90px;
+  color: rgb(253, 4, 224);
+  height: 20px;
+}
+
+.main-btn{
+  color: #fff;
+  background-color: #3a6cf4;
+  text-decoration: none;
+  font-size: 0.9em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.9375em 2.1875em;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  transition: 0.7s ease;
+  border: 1px solid silver;
+}
+
+.main-btn:hover{
+  background-color: #0a49f6;
+  transform: scale(1.1);
+}
